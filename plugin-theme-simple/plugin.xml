@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+    <id>com.fr.solution.theme.simple</id>
+    <name><![CDATA[Simple主题]]></name>
+    <active>yes</active>
+    <version>2.1</version>
+    <env-version>8.0</env-version>
+    <jartime>2016-08-01</jartime>
+    <vendor>icy</vendor>
+    <description><![CDATA[主题插件开发大赛——Simple主题]]></description>
+    <change-notes><![CDATA[无]]></change-notes>
+    <extra-core>
+        <LocaleFinder class="com.fr.solution.theme.simple.ThemeLocaleFinder"/>
+    </extra-core>
+    <extra-designer>
+    </extra-designer>
+    <extra-platform>
+        <ThemeVariousProvider class="com.fr.solution.theme.simple.ThemeSimple"/>
+    </extra-platform>
+</plugin>
