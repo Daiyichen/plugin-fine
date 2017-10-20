@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugin>
     <id>com.fr.solution.theme.simple</id>
     <name><![CDATA[Simple主题]]></name>
     <active>yes</active>
@@ -16,4 +16,5 @@
     <extra-platform>
         <ThemeVariousProvider class="com.fr.solution.theme.simple.ThemeSimple"/>
     </extra-platform>
+ 	
 </plugin>
